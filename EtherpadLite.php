@@ -64,7 +64,7 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'EtherpadLite',
 	'author' => array( 'Thomas Gries' ),
-	'version' => '1.11 20120219',
+	'version' => '1.12 20120309',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:EtherpadLite',
 	'descriptionmsg' => 'etherpadlite-desc',
 );
@@ -104,3 +104,20 @@ $wgEtherpadLiteUrlWhitelist = array();
 
 # include "*" if you expressly want to allow all urls (you should not do this)
 # $wgEtherpadLiteUrlWhitelist = array( "*" );
+
+// If you want to see images in feed items, then you need to globally allow
+// image tags in your wiki by using the MediaWiki parameter; default: false
+// $wgAllowImageTag = true;
+
+// Parameter to enable the automatic tracking category
+// for all pages using this parser extension
+//
+// Category name [[MediaWiki:etherpadlite-tracking-category]] (default)
+// $wgEtherpadLiteTrackingCategory = true;
+//
+// you can assign a specific category name [[MediaWiki:Etherpadlite-mycategory]]
+// $wgEtherpadLiteTrackingCategory = 'etherpadlite-mycategory';
+//
+// you can disable the use of a tracking category
+// $wgEtherpadLiteTrackingCategory = false;
+$wgEtherpadLiteTrackingCategory = true;

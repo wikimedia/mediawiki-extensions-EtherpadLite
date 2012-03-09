@@ -39,7 +39,7 @@ class EtherpadLite {
 		global $wgEtherpadLiteDefaultPadUrl, $wgEtherpadLiteDefaultWidth, $wgEtherpadLiteDefaultHeight,
 			$wgEtherpadLiteMonospacedFont, $wgEtherpadLiteShowControls, $wgEtherpadLiteShowLineNumbers,
 			$wgEtherpadLiteShowChat, $wgEtherpadLiteShowAuthorColors, $wgEtherpadLiteUrlWhitelist,
-			$wgEtherpadLitePadsOnThisPage;
+			$wgEtherpadLitePadsOnThisPage, $wgEtherpadLiteTrackingCategory;
 
 		# check the user input
 
@@ -168,24 +168,30 @@ class EtherpadLite {
 
 		wfDebug( "EtherpadLite::EtherpadLiteRender $output\n" );
 
+		if ( $wgEtherpadLiteTrackingCategory === true ) {
+			$parser->addTrackingCategory( 'etherpadlite-tracking-category' );
+		} elseif ( is_string( $wgEtherpadLiteTrackingCategory ) ) {
+			$parser->addTrackingCategory( $wgEtherpadLiteTrackingCategory );
+		}
+
 		return $output;
 
 	}
 
 	/**
 	* Output an error message, all wraped up nicely.
-	* @param String $errorName The system message that this error is
+	* @param String $errorMessageName The system message that this error is
 	* @param String|Array $param Error parameter (or parameters)
 	* @return String Html that is the error.
 	*/
-	private static function EtherpadLiteError( $errorName, $param ) {
+	private static function EtherpadLiteError( $errorMessageName, $param ) {
 
 		// Anything from a parser tag should use Content lang for message,
 		// since the cache doesn't vary by user language: do not use wfMsgForContent but wfMsgForContent
 		// The ->parse() part makes everything safe from an escaping standpoint.
 
 		return Html::rawElement( 'span', array( 'class' => 'error' ),
-			wfMessage( $errorName )->inContentLanguage()->params( $param )->parse()
+			"Extension:EtherpadLite: -- Error: " . wfMessage( $errorMessageName )->inContentLanguage()->params( $param )->parse()
 		);
 
 	}

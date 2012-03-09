@@ -13,6 +13,7 @@ $messages = array();
  */
 $messages['en'] = array(
 	'etherpadlite-desc' => 'Adds &lt;eplite&gt; parser tag to embed one or many Etherpad Lite pads (which are hosted on local or external Etherpad Lite server/s) on pages',
+	'etherpadlite-tracking-category' => 'Etherpad',
 	'etherpadlite-invalid-pad-url' => '"$1" is not a valid Etherpad Lite URL or pad name.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" is not in the whitelist of allowed Etherpad Lite servers. {{PLURAL:$3|$2 is the only allowed server|The allowed servers are as follows: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" is not in the whitelist of allowed Etherpad Lite servers. There are no allowed servers in the whitelist.',
@@ -32,6 +33,7 @@ $messages['qqq'] = array(
 * $1 is a URL not in the whitelist for Etherpad Lite servers.',
 	'etherpadlite-pad-used-more-than-once' => 'Error if users try to show multiple frames of the very same pad. Each pad must be unique on a wiki page. Parameters:
 * $1 is a full pad URL (server/padid).',
+	'etherpadlite-tracking-category' => 'The name of a category for all pages which use the &lt;eplite&gt; parser extension tag. The category is automatically added unless the feature is disabled.',
 );
 
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
