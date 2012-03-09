@@ -33,7 +33,7 @@ class EtherpadLite {
 
 	}
 
-	static function EtherpadLiteRender( $input, $args, $parser, $frame ) {
+	static function EtherpadLiteRender( $input, array $args, Parser $parser, PPFrame $frame ) {
 
 		global $wgUser;
 		global $wgEtherpadLiteDefaultPadUrl, $wgEtherpadLiteDefaultWidth, $wgEtherpadLiteDefaultHeight,
