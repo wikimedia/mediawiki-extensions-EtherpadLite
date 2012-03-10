@@ -50,6 +50,7 @@ $messages['be-tarask'] = array(
  */
 $messages['de'] = array(
 	'etherpadlite-desc' => 'Ergänzt das Tag &lt;eplite&gt; zum Einbetten eines oder mehrerer, entweder lokal oder extern auf EtherPad-Lite-Servern gehosteter, EtherPad-Lite-Editierflächen in eine Seite',
+	'etherpadlite-tracking-category' => 'Seiten mit einem EtherPad',
 	'etherpadlite-invalid-pad-url' => '„$1“ ist keine gültige EtherPad-Lite-URL oder ein Editierfeldname.',
 	'etherpadlite-url-is-not-whitelisted' => '„$1“ befindet sich nicht in der Liste zulässiger EtherPad-Lite-Server. {{PLURAL:$3|$2 ist der einzige mögliche Server|Die folgenden Server sind möglich: $2}}.',
 	'etherpadlite-empty-whitelist' => '„$1“ befindet sich nicht in der Liste zulässiger EtherPad-Lite-Server. Es gibt keine zulässigen Server in der Liste.',
@@ -61,6 +62,7 @@ $messages['de'] = array(
  */
 $messages['dsb'] = array(
 	'etherpadlite-desc' => 'Pśidawa parserowu toflicku &lt;eplite&gt;, za zasajźenje jadneje pisańskeje płoniny abo někotarych płoninow Etherpad Lite (kótarež su na lokalnych abo eksternych serwerach Etherpad Lite zaměstnjone) na bokach',
+	'etherpadlite-tracking-category' => 'Boki ze zasajźonym Ehterpadom',
 	'etherpadlite-invalid-pad-url' => '"$1" njejo płaśiwy URL Etherpad Lite abo płaśiwe mě pisańskeje płoniny.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" njejo w lisćinje dowólonych serwerow Etherpad Lite. {{PLURAL:$3|$2 jo jadnucki dowólony serwer|Slědujucej serwera stej móžno: $2|Slědujuce serwery su móžno: $2|Slědujuce serwery su móžno: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" njejo w lisćinje dowólonych serwerow Etherpad Lite. W lisćinje dowólone serwery njejsu.',
@@ -72,6 +74,7 @@ $messages['dsb'] = array(
  */
 $messages['es'] = array(
 	'etherpadlite-desc' => 'Añade la etiqueta del analizador &lt;eplite&gt; para incrustar uno o varios bloques Etherpad Lite (que están alojados en servidor/es Etherpad Lite locales o externos) en las páginas',
+	'etherpadlite-tracking-category' => 'Páginas con un Etherpad incrustado',
 	'etherpadlite-invalid-pad-url' => '"$1" no es un nombre válido de dirección URL o nombre de bloque de Etherpad Lite.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" no está en la lista blanca de servidores de Etherpad Lite permitidos.  {{PLURAL:$3|$2  es el único servidor permitido|Los servidores permitidos son los siguientes:  $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" no está en la lista blanca de servidores de Etherpad Lite permitidos. No hay servidores autorizados en la lista blanca.',
@@ -116,6 +119,7 @@ $messages['he'] = array(
  */
 $messages['hsb'] = array(
 	'etherpadlite-desc' => 'Přidawa parserowu tafličku &lt;eplite&gt;, za zasadźenje jedneje pisanskeje płoniny abo wjacorych płoninow Etherpad Lite (kotrež su na lokalnych abo eksternych serwerach Etherpad Lite zaměstnjene) na stronach',
+	'etherpadlite-tracking-category' => 'Strony ze zasadźenym Etherpadom',
 	'etherpadlite-invalid-pad-url' => '"$1" płaćiwy URL Etherpad Lite abo płaćiwe mjeno pisanskeje płoniny njeje.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" njeje w lisćinje dowolenych serwerow Etherpad Lite. {{PLURAL:$3|$2 je jenički dowoleny serwer|Slědowacej serweraj stej móžno: $2|Slědowace serwery su móžno: $2|Slědowace serwery su móžno: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" njeje w lisćinje dowolenych serwerow Etherpad Lite. W lisćinje dowolene serwery njejsu.',
@@ -127,6 +131,7 @@ $messages['hsb'] = array(
  */
 $messages['ia'] = array(
 	'etherpadlite-desc' => 'Adde un etiquetta &lt;eplite&gt; al analysator syntactic que incorpora un o plure documentos collaborative de Etherpad Lite (le quales es albergate in servitor(es) externe de Etherpad Lite) in paginas',
+	'etherpadlite-tracking-category' => 'Paginas con Etherpad incorporate',
 	'etherpadlite-invalid-pad-url' => '"$1" non es un URL de Etherpad Lite o nomine de documento valide.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" non es in le lista de servitores Etherpad Lite autorisate. {{PLURAL:$3|Solmente le servitor $2 es autorisate|Le servitores autorisate es: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" non es in le lista de servitores Etherpad Lite autorisate. Nulle servitor es autorisate.',
@@ -138,6 +143,7 @@ $messages['ia'] = array(
  */
 $messages['mk'] = array(
 	'etherpadlite-desc' => 'Ја додава парсерската ознака &lt;eplite&gt; за вметнување на една или повеќе плочки Etherpad Lite (кои се вдомени на локални или надворешни опслужувачи на Etherpad Lite) во страниците',
+	'etherpadlite-tracking-category' => 'Страници со вметнат Etherpad',
 	'etherpadlite-invalid-pad-url' => '„$1“ не е важечко име на плочка или URL на Etherpad Lite.',
 	'etherpadlite-url-is-not-whitelisted' => '„$1“ не е на белиот список на дозволени опслужувачи за Etherpad Lite. {{PLURAL:$3|Единствениот дозволен е $2|Дозволени се следниве: $2}}.',
 	'etherpadlite-empty-whitelist' => '„$1“ не е на белиот список на дозволени опслужувачи за Etherpad Lite. На списокот нема ниеден дозволен осплужувач.',
@@ -160,6 +166,7 @@ $messages['nl'] = array(
  */
 $messages['pl'] = array(
 	'etherpadlite-desc' => 'Dodaje tag analizatora składni &lt;eplite&gt; w celu osadzenia na stronach jednej lub wielu konsol Etherpad Lite (które są hostowane na lokalnych lub zewnętrznych serwerach Etherpad Lite)',
+	'etherpadlite-tracking-category' => 'Strony z osadzonym Etherpadem',
 	'etherpadlite-invalid-pad-url' => '"$1" nie jest prawidłową nazwą adresu URL Etherpad Lite ani nazwą konsoli.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" nie występuje na białej liście dozwolonych serwerów Etherpad Lite.  {{PLURAL:$3|$2  jest jedynym dozwolonym serwerem|Dozwolone są następujące serwery: $2|Dozwolone są następujące serwery: $2}}.',
 	'etherpadlite-empty-whitelist' => '" $1 " nie występuje na białej liście dozwolonych serwerów Etherpad Lite. Na białej liście nie ma dozwolonych serwerów.',
