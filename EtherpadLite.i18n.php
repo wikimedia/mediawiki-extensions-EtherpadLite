@@ -86,6 +86,7 @@ $messages['es'] = array(
  */
 $messages['fr'] = array(
 	'etherpadlite-desc' => "Ajoute la balise de l'analyseur &lt;eplite&gt; pour incorporer un ou plusieurs blocs d'Etherpad Lite (qui sont hébergés sur des serveurs Etherpad Lite locaux ou externes) dans les pages",
+	'etherpadlite-tracking-category' => 'Pages avec un Etherpad inclus',
 	'etherpadlite-invalid-pad-url' => '"$1" n\'est pas une URL ou un nom de bloc Etherpad Lite valide.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" ne fait pas partie de la liste des serveurs Etherpad Lite autorisés. {{PLURAL:$3|$2 est le seul serveur autorisé|Les serveurs autorisés sont les suivants: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" n\'est pas dans la liste des serveurs d\'application Lite autorisés. Il n\'y a pas de serveur dans la liste autorisée.',
@@ -97,6 +98,7 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'etherpadlite-desc' => 'Engade a etiqueta analítica &lt;eplite&gt; para incorporar un ou moitos documentos de Etherpad Lite (aloxados nun ou en varios servidores de Etherpad Lite) nas páxinas',
+	'etherpadlite-tracking-category' => 'Páxinas con Etherpad incorporado',
 	'etherpadlite-invalid-pad-url' => '"$1" non é un nome de documento ou enderezo URL de Etherpad Lite válido.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" non se atopa na lista branca dos servidores de Etherpad Lite permitidos. {{PLURAL:$3|$2 é o único servidor permitido|Os servidores permitidos son os seguintes: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" non se atopa na lista branca dos servidores de Etherpad Lite permitidos. Non hai servidores permitidos na lista branca.',
@@ -151,10 +153,12 @@ $messages['mk'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author SPQRobin
  * @author Siebrand
  */
 $messages['nl'] = array(
 	'etherpadlite-desc' => "Voegt de parsertag &lt;eplite&gt; toe om één of meer pagina's uit Etherpad Lite toe te voegen aan een pagina die lokaal of extern gehost worden op één of meerdere servers",
+	'etherpadlite-tracking-category' => "Pagina's met een ingevoegde Etherpad",
 	'etherpadlite-invalid-pad-url' => '"$1" is geen geldige URL voor Etherpad Lite of een padnaam.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" staat niet in de witte lijst voor Etherpad Lite-servers. {{PLURAL:$3|$2 is de enige server die gebruikt kan worden|De volgende servers kunnen gebruikt worden: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" staat niet in de witte lijst voor Etherpad Lite-servers. Er zijn op het moment geen servers die gebruikt kunnen worden.',
