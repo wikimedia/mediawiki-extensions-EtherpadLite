@@ -39,7 +39,7 @@ class EtherpadLite {
 		global $wgEtherpadLiteDefaultPadUrl, $wgEtherpadLiteDefaultWidth, $wgEtherpadLiteDefaultHeight,
 			$wgEtherpadLiteMonospacedFont, $wgEtherpadLiteShowControls, $wgEtherpadLiteShowLineNumbers,
 			$wgEtherpadLiteShowChat, $wgEtherpadLiteShowAuthorColors, $wgEtherpadLiteUrlWhitelist,
-			$wgEtherpadLitePadsOnThisPage, $wgEtherpadLiteTrackingCategory;
+			$wgEtherpadLitePadsOnThisPage;
 
 		# check the user input
 
@@ -166,16 +166,8 @@ class EtherpadLite {
 			$sanitizedAttributes
 		);
 
-		wfDebug( "EtherpadLite::EtherpadLiteRender $output\n" );
-
-		if ( $wgEtherpadLiteTrackingCategory === true ) {
-			$parser->addTrackingCategory( 'etherpadlite-tracking-category' );
-		} elseif ( is_string( $wgEtherpadLiteTrackingCategory ) ) {
-			$parser->addTrackingCategory( $wgEtherpadLiteTrackingCategory );
-		}
-
+		$parser->addTrackingCategory( 'etherpadlite-tracking-category' );
 		return $output;
-
 	}
 
 	/**
