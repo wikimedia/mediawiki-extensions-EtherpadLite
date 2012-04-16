@@ -178,10 +178,12 @@ $messages['pl'] = array(
 );
 
 /** Russian (Русский)
+ * @author Eleferen
  * @author Express2000
  */
 $messages['ru'] = array(
 	'etherpadlite-desc' => 'Добавляет метку синтаксического анализа &lt;eplite&gt; для встраивания в страницы одного или нескольких блокнотов Etherpad Lite (расположенных на локальном или внешнем сервере Etherpad Lite)',
+	'etherpadlite-tracking-category' => 'Страницы с встроенным Etherpad',
 	'etherpadlite-invalid-pad-url' => '"$1" не является действительным именем блокнота или адресом Etherpad Lite.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. {{PLURAL:$3|Только $2 является разрешенным сервером|Разрешены следующие сервера: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. В белом списке нет ни одного сервера.',
