@@ -21,9 +21,11 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Beta16
  * @author Siebrand
  */
 $messages['qqq'] = array(
+	'etherpadlite-desc' => '{{desc}}',
 	'etherpadlite-tracking-category' => 'The name of a category for all pages which use the &lt;eplite&gt; parser extension tag. The category is automatically added unless the feature is disabled.',
 	'etherpadlite-invalid-pad-url' => "Error if the url did not meet validation (for example, if it didn't start with an allowed protocol). $1 is the invalid url",
 	'etherpadlite-url-is-not-whitelisted' => "Error if URL isn't in list of allowed URLs. Parameters:
@@ -140,6 +142,18 @@ $messages['ia'] = array(
 	'etherpadlite-url-is-not-whitelisted' => '"$1" non es in le lista de servitores Etherpad Lite autorisate. {{PLURAL:$3|Solmente le servitor $2 es autorisate|Le servitores autorisate es: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" non es in le lista de servitores Etherpad Lite autorisate. Nulle servitor es autorisate.',
 	'etherpadlite-pad-used-more-than-once' => 'Le documento collaborative "$1" ha jam essite usate in iste pagina; il pote haber multe documentos collaborative in un pagina, ma solmente si illos es differente.',
+);
+
+/** Italian (italiano)
+ * @author Beta16
+ */
+$messages['it'] = array(
+	'etherpadlite-desc' => 'Aggiunge il parser tag &lt;eplite&gt; per incorporare uno o più blocchi Etherpad Lite (che sono ospitati in server Etherpad Lite locali o esterni) nelle pagine',
+	'etherpadlite-tracking-category' => 'Pagine con Etherpad incorporato',
+	'etherpadlite-invalid-pad-url' => '"$1" non è un URL Etherpad Lite valido o nome di un pad.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" non si trova nella lista dei server Etherpad Lite consentiti. {{PLURAL:$3|$2 è l\'unico server consentito|I server consentiti sono: $2}}.',
+	'etherpadlite-empty-whitelist' => '"$1" non si trova nella lista dei server Etherpad Lite consentiti. Non ci sono server consentiti.',
+	'etherpadlite-pad-used-more-than-once' => 'Il pad "$1" è già stato usato su questa pagina; puoi avere più pad su una pagina, ma solo se sono diversi fra loro.',
 );
 
 /** Macedonian (Македонски)
