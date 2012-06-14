@@ -72,7 +72,7 @@ $messages['dsb'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Pisańska płonina "$1" jo se južo do togo na toś tom boku wužyła; móžoš wjele pisańskich płoninow na boku měś, ale jano, jolic su rozdźělne płoniny-',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -84,7 +84,7 @@ $messages['es'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'El bloque "$1" ya ha sido utilizado antes en esta página; puede tener muchos bloques en una página, pero sólo si son bloques diferentes.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -132,7 +132,7 @@ $messages['hsb'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Pisanska płonina "$1" je so hižo do toho na tutej stronje wužiła; móžeš wjele pisanskich płoninow na stronje měć, ale jenož, jeli su rozdźělne płoniny-',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -156,7 +156,7 @@ $messages['it'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Il pad "$1" è già stato usato su questa pagina; puoi avere più pad su una pagina, ma solo se sono diversi fra loro.',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -181,7 +181,7 @@ $messages['nl'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'De pad "$1" wordt al gebruikt op deze pagina. U kunt meerdere pads op een pagina toevoegen, maar elke pad slechts één keer.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
@@ -193,7 +193,7 @@ $messages['pl'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Konsola "$1" została już użyta powyżej na tej stronie; można mieć wiele konsol na stronie, ale tylko wtedy, jeżeli są to różne konsole.',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Eleferen
  * @author Express2000
  */
