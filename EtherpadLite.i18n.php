@@ -38,7 +38,7 @@ $messages['qqq'] = array(
 * $1 is a full pad URL (server/padid).',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
@@ -60,7 +60,7 @@ $messages['de'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Das Pad „$1“ wurde früher bereits auf dieser Seite verwendet. Es können viele Pads auf einer Seite genutzt werden, jedoch nur, sofern es unterschiedliche sind.',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -96,7 +96,7 @@ $messages['fr'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Le bloc "$1" a déjà été utilisé sur cette page, vous pouvez avoir plusieurs blocs sur une page, mais seulement s\'ils sont de types différents.',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -120,7 +120,7 @@ $messages['he'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'לוח הכתיבה "$1" כבר נמצא בדף הזה; אפשר לשים מספר לוחות כתיבה בדף, אבל הם צריכים להיות שונים.',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
