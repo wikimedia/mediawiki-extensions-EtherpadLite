@@ -38,7 +38,7 @@ $messages['qqq'] = array(
 * $1 is a full pad URL (server/padid).',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
 $messages['be-tarask'] = array(
