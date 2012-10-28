@@ -256,4 +256,3 @@ $messages['tl'] = array(
 	'etherpadlite-empty-whitelist' => 'Ang "$1" ay wala sa talaan ng mga hindi pinagbabawalan ng pinahihintulutang mga tagapaghain ng Etherpad Lite. Walang mga pinapahintulutang mga tagapaghain sa loob ng talaan ng mga hindi pinagbabawalan.',
 	'etherpadlite-pad-used-more-than-once' => 'Ang sapin na "$1" ay nagamit na dati sa pahinang ito; maaari kang magkaroon ng maraming mga sapin sa ibabaw ng isang pahina, subalit kung magkakaiba lamang na mga sapin ang mga ito.',
 );
-
