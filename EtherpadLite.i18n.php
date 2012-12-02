@@ -268,3 +268,15 @@ $messages['tl'] = array(
 	'etherpadlite-empty-whitelist' => 'Ang "$1" ay wala sa talaan ng mga hindi pinagbabawalan ng pinahihintulutang mga tagapaghain ng Etherpad Lite. Walang mga pinapahintulutang mga tagapaghain sa loob ng talaan ng mga hindi pinagbabawalan.',
 	'etherpadlite-pad-used-more-than-once' => 'Ang sapin na "$1" ay nagamit na dati sa pahinang ito; maaari kang magkaroon ng maraming mga sapin sa ibabaw ng isang pahina, subalit kung magkakaiba lamang na mga sapin ang mga ito.',
 );
+
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'etherpadlite-desc' => 'Додає підтримку парсером теґу &lt;eplite&gt; для вбудування в сторінки одного чи декількох документів Etherpad Lite (розташованих локально чи зовні на сервері/ах Etherpad Lite)',
+	'etherpadlite-tracking-category' => 'Сторінки з вбудованим Etherpad',
+	'etherpadlite-invalid-pad-url' => '«$1» не є дійсною назвою документу або адресою Etherpad Lite',
+	'etherpadlite-url-is-not-whitelisted' => '«$1» не входить до білого списку дозволених серверів Etherpad Lite. {{PLURAL:$3|Тільки сервер $2 є дозволеним|Доступними є наступні сервери: $2}}.',
+	'etherpadlite-empty-whitelist' => '	«$1» не входить до білого списку дозволених серверів Etherpad Lite. У білому списку дозволених сереверів немає жодного серверу.',
+	'etherpadlite-pad-used-more-than-once' => 'Документ «$1» вже використано на цій сторінці; можна використовувати декілька документів на сторінці, але лише якщо вони різні.',
+);
