@@ -147,6 +147,14 @@ $messages['ia'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Le documento collaborative "$1" ha jam essite usate in iste pagina; il pote haber multe documentos collaborative in un pagina, ma solmente si illos es differente.',
 );
 
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'etherpadlite-tracking-category' => 'Halaman dengan Etherpad tertanam',
+	'etherpadlite-invalid-pad-url' => '"$1" bukan URL atau nama pad Etherpad Lite yang valid.',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
