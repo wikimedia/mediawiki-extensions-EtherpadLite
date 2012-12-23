@@ -215,6 +215,13 @@ $messages['mk'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Тетратката „$1“ е веќе користена на оваа страница. На страницава може да имате повеќе тетратки, но само ако се различни.',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'etherpadlite-tracking-category' => "Paġni b'Etherpad inkorporat",
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
