@@ -247,6 +247,18 @@ $messages['pl'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Konsola "$1" została już użyta powyżej na tej stronie; można mieć wiele konsol na stronie, ale tylko wtedy, jeżeli są to różne konsole.',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Dragonòt
+ */
+$messages['pms'] = array(
+	'etherpadlite-desc' => 'A gionta la tichëtta dël parser &lt;eplite&gt; për anserì un o pi blòch Etherpad Lite (che a son ospità dzora a sërvent locaj o estern Etherpad Lite) dzora a pagine',
+	'etherpadlite-tracking-category' => "Pagine con n'Etherpad anserì",
+	'etherpadlite-invalid-pad-url' => '"$1" a l\'é pa n\'anliura Etherpad Lite bon-a o ël nòm d\'un pad.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" a l\'é pa ant la whitelist dij sërvent Etherpad Lite përmëttù. {{PLURAL:$3|$2 a l\'é l\'ùnich sërvent përmëttù|Ij sërvent përmëttù a son coj ch\'a ven-o: $2}}.',
+	'etherpadlite-empty-whitelist' => '"$1" a l\'é pa ant la whitelist dij sërvent Etherpad Lite përmëttù. A-i é pa gnun sërvent përmëttù ant la whitelist.',
+	'etherpadlite-pad-used-more-than-once' => 'Ël pad "$1" a l\'é già stàit dovrà prima dzora sta pagina; it peule avej pi pad dzora na pagina, ma mach se a son pad diferent.',
+);
+
 /** Russian (русский)
  * @author Eleferen
  * @author Express2000
