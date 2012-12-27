@@ -87,6 +87,18 @@ $messages['es'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'El bloque "$1" ya ha sido utilizado antes en esta página; puede tener muchos bloques en una página, pero sólo si son bloques diferentes.',
 );
 
+/** Finnish (suomi)
+ * @author VezonThunder
+ */
+$messages['fi'] = array(
+	'etherpadlite-desc' => 'Lisää &lt;eplite&gt;-parseritunnisteen, jolla voi upottaa yhden tai useamman Etherpad Lite -lehtiön (joita säilytetään paikallisilla tai ulkoisilla Etherpad Lite -palvelimilla) sivuun',
+	'etherpadlite-tracking-category' => 'Sivut, joilla upotettu Etherpad',
+	'etherpadlite-invalid-pad-url' => '"$1" ei ole kelvollinen Etherpad Lite -verkko-osoite tai lehtiön nimi.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" ei ole sallittujen Etherpad Lite -palvelinten luettelossa. {{PLURAL:$3|$2 on ainoa sallittu palvelin|Sallitut palvelimet ovat seuraavat: $2}}.',
+	'etherpadlite-empty-whitelist' => '"$1" ei ole sallittujen Etherpad Lite -palvelinten luettelossa. Sallittuja palvelimia ei ole.',
+	'etherpadlite-pad-used-more-than-once' => 'Lehtiötä "$1" on jo käytetty aiemmin tällä sivulla. Sivulla voi olla useita lehtiöitä, mutta vain, jos ne ovat eri lehtiöitä.',
+);
+
 /** French (français)
  * @author Gomoko
  */
