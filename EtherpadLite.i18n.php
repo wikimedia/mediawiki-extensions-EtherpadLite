@@ -247,6 +247,13 @@ $messages['nl'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'De pad "$1" wordt al gebruikt op deze pagina. U kunt meerdere pads op een pagina toevoegen, maar elke pad slechts één keer.',
 );
 
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'etherpadlite-pad-used-more-than-once' => 'De pad "$1" wordt al gebruikt op deze pagina. Je kunt meerdere pads op een pagina toevoegen, maar elke pad slechts één keer.',
+);
+
 /** Polish (polski)
  * @author BeginaFelicysym
  */
