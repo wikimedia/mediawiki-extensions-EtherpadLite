@@ -267,12 +267,13 @@ $messages['pl'] = array(
 );
 
 /** Piedmontese (Piemontèis)
+ * @author Borichèt
  * @author Dragonòt
  */
 $messages['pms'] = array(
-	'etherpadlite-desc' => 'A gionta la tichëtta dël parser &lt;eplite&gt; për anserì un o pi blòch Etherpad Lite (che a son ospità dzora a sërvent locaj o estern Etherpad Lite) dzora a pagine',
-	'etherpadlite-tracking-category' => "Pagine con n'Etherpad anserì",
-	'etherpadlite-invalid-pad-url' => '"$1" a l\'é pa n\'anliura Etherpad Lite bon-a o ël nòm d\'un pad.',
+	'etherpadlite-desc' => "A gionta la tichëtta ëd l'analisator &lt;eplite&gt; për anserì un o pi blòch d'Etherpad Lite (che a son ospità dzora a dij servent locaj o estern Etherpad Lite) ant le pàgine",
+	'etherpadlite-tracking-category' => "Pàgine con n'Etherpad anserì",
+	'etherpadlite-invalid-pad-url' => "«$1» a l'é pa n'anliura o un nòm ëd blòch Etherpad Lite bon.",
 	'etherpadlite-url-is-not-whitelisted' => '"$1" a l\'é pa ant la whitelist dij sërvent Etherpad Lite përmëttù. {{PLURAL:$3|$2 a l\'é l\'ùnich sërvent përmëttù|Ij sërvent përmëttù a son coj ch\'a ven-o: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" a l\'é pa ant la whitelist dij sërvent Etherpad Lite përmëttù. A-i é pa gnun sërvent përmëttù ant la whitelist.',
 	'etherpadlite-pad-used-more-than-once' => 'Ël pad "$1" a l\'é già stàit dovrà prima dzora sta pagina; it peule avej pi pad dzora na pagina, ma mach se a son pad diferent.',
