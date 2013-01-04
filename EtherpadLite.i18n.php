@@ -274,9 +274,9 @@ $messages['pms'] = array(
 	'etherpadlite-desc' => "A gionta la tichëtta ëd l'analisator &lt;eplite&gt; për anserì un o pi blòch d'Etherpad Lite (che a son ospità dzora a dij servent locaj o estern Etherpad Lite) ant le pàgine",
 	'etherpadlite-tracking-category' => "Pàgine con n'Etherpad anserì",
 	'etherpadlite-invalid-pad-url' => "«$1» a l'é pa n'anliura o un nòm ëd blòch Etherpad Lite bon.",
-	'etherpadlite-url-is-not-whitelisted' => '"$1" a l\'é pa ant la whitelist dij sërvent Etherpad Lite përmëttù. {{PLURAL:$3|$2 a l\'é l\'ùnich sërvent përmëttù|Ij sërvent përmëttù a son coj ch\'a ven-o: $2}}.',
-	'etherpadlite-empty-whitelist' => '"$1" a l\'é pa ant la whitelist dij sërvent Etherpad Lite përmëttù. A-i é pa gnun sërvent përmëttù ant la whitelist.',
-	'etherpadlite-pad-used-more-than-once' => 'Ël pad "$1" a l\'é già stàit dovrà prima dzora sta pagina; it peule avej pi pad dzora na pagina, ma mach se a son pad diferent.',
+	'etherpadlite-url-is-not-whitelisted' => "«$1» a l'é pa ant la lista dij servent Etherpad Lite autorisà. {{PLURAL:$3|$2 a l'é l'ùnich servent autorisà|Ij servent autorisà a son coj sì-dapress: $2}}.",
+	'etherpadlite-empty-whitelist' => "«$1» a l'é pa ant la lista dij servent Etherpad Lite autorisà. A-i é gnun servent ant la lista autorisà.",
+	'etherpadlite-pad-used-more-than-once' => "Ël blòch «$1» a l'é già stàit dovrà prima dzora a costa pàgina; a peul avèj pi 'd blòch ansima a na pàgina, ma mach se a son ëd blòch diferent.",
 );
 
 /** Russian (русский)
