@@ -38,6 +38,18 @@ $messages['qqq'] = array(
 * $1 is a full pad URL (server/padid).',
 );
 
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'etherpadlite-desc' => "Amiesta la etiqueta del analizador &lt;eplite&gt; pa incorporar unu o más blocs d'Etherpad Lite (que tan agospiaos en sirvidor/es Etherpad Lite llocales o esternos) a les páxines",
+	'etherpadlite-tracking-category' => 'Páxines con un Etherpad incorporáu',
+	'etherpadlite-invalid-pad-url' => '"$1" nun ye una direición URL o nome de bloc d\'Etherpad Lite válidu.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" nun ta na llista blanca de sirvidores d\'Etherpad Lite permitíos.  {{PLURAL:$3|$2  ye l\'únicu sirvidor permitíu|Los sirvidores permitíos son los siguientes: $2}}.',
+	'etherpadlite-empty-whitelist' => '"$1" nun ta na llista blanca de sirvidores d\'Etherpad Lite permitíos. Nun hai dengún sirvidor permitíu na llista blanca.',
+	'etherpadlite-pad-used-more-than-once' => 'El bloc "$1" yá s\'utilizó antes nesta páxina; pue tener munchos blocs nuna páxina, pero sólo si son blocs diferentes.',
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Wizardist
  */
