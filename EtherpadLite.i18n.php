@@ -291,6 +291,13 @@ $messages['pms'] = array(
 	'etherpadlite-pad-used-more-than-once' => "Ël blòch «$1» a l'é già stàit dovrà prima dzora a costa pàgina; a peul avèj pi 'd blòch ansima a na pàgina, ma mach se a son ëd blòch diferent.",
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'etherpadlite-tracking-category' => "Pàggene cu 'nu Etherpad 'ngapsulate",
+);
+
 /** Russian (русский)
  * @author Eleferen
  * @author Express2000
