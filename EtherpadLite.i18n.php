@@ -22,10 +22,11 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Beta16
+ * @author Shirayuki
  * @author Siebrand
  */
 $messages['qqq'] = array(
-	'etherpadlite-desc' => '{{desc}}',
+	'etherpadlite-desc' => '{{desc|name=Etherpad Lite|url=http://www.mediawiki.org/wiki/Extension:EtherpadLite}}',
 	'etherpadlite-tracking-category' => 'The name of a category for all pages which use the &lt;eplite&gt; parser extension tag. The category is automatically added unless the feature is disabled.',
 	'etherpadlite-invalid-pad-url' => "Error if the url did not meet validation (for example, if it didn't start with an allowed protocol). $1 is the invalid url",
 	'etherpadlite-url-is-not-whitelisted' => "Error if URL isn't in list of allowed URLs. Parameters:
