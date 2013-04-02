@@ -347,3 +347,12 @@ $messages['uk'] = array(
 	'etherpadlite-empty-whitelist' => '	«$1» не входить до білого списку дозволених серверів Etherpad Lite. У білому списку дозволених сереверів немає жодного серверу.',
 	'etherpadlite-pad-used-more-than-once' => 'Документ «$1» вже використано на цій сторінці; можна використовувати декілька документів на сторінці, але лише якщо вони різні.',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'etherpadlite-desc' => '添加&lt;eplite&gt;解析器函数来在页面上嵌入一个或多个Etherpad Lite便签（托管在本地或外部Etherpad Lite服务器）',
+	'etherpadlite-tracking-category' => '嵌入了Etherpad的页面',
+	'etherpadlite-invalid-pad-url' => '“$1”不是有效的Etherpad Lite URL或便签名。',
+);
