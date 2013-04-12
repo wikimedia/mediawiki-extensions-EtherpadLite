@@ -228,6 +228,13 @@ $messages['ksh'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Dat <i lang="en>etherpad</i> „$1“ es ald en heh dä Sigg. Mer kann esu vill <i lang="en>etherpads</i> en en Sigg han, wi mer well, ävver se möße ongerscheidlesch sin.',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'etherpadlite-tracking-category' => 'Säite wou en Etherpad agebaut ass',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
