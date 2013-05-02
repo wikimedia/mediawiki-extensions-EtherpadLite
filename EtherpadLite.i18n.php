@@ -316,6 +316,7 @@ $messages['pms'] = array(
  */
 $messages['roa-tara'] = array(
 	'etherpadlite-tracking-category' => "Pàggene cu 'nu Etherpad 'ngapsulate",
+	'etherpadlite-invalid-pad-url' => '"$1" non g\'è \'na URL valide de Etherpad Lite URL o \'nu nome anghiute bbuène.',
 );
 
 /** Russian (русский)
