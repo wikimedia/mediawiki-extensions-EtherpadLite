@@ -315,6 +315,7 @@ $messages['pms'] = array(
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
+	'etherpadlite-desc' => "Aggiunge 'u tag analizzatore &lt;eplite&gt; pe 'ngapsulà une o cchiù pad Etherpad Lite (le quale stonne ospitate in locale o sus a server de fore Etherpad Lite) sus a le pàggene",
 	'etherpadlite-tracking-category' => "Pàggene cu 'nu Etherpad 'ngapsulate",
 	'etherpadlite-invalid-pad-url' => '"$1" non g\'è \'na URL valide de Etherpad Lite URL o \'nu nome anghiute bbuène.',
 );
@@ -375,4 +376,16 @@ $messages['zh-hans'] = array(
 	'etherpadlite-desc' => '添加&lt;eplite&gt;解析器函数来在页面上嵌入一个或多个Etherpad Lite便签（托管在本地或外部Etherpad Lite服务器）',
 	'etherpadlite-tracking-category' => '嵌入了Etherpad的页面',
 	'etherpadlite-invalid-pad-url' => '“$1”不是有效的Etherpad Lite URL或便签名。',
+);
+
+/** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
+ */
+$messages['zh-hant'] = array(
+	'etherpadlite-desc' => '添加&lt;eplite&gt;解析器函數以於頁面中嵌入一個或多個Etherpad Lite便箋（托管於本地或外部Etherpad Lite伺服器）',
+	'etherpadlite-tracking-category' => '已嵌入Etherpad的頁面',
+	'etherpadlite-invalid-pad-url' => '「$1」並非有效Etherpad Lite網址或便箋名稱。',
+	'etherpadlite-url-is-not-whitelisted' => '「$1」並不位於所容許的Etherpad Lite伺服器白名單。{{PLURAL:$3|$2是唯一允許的伺服器|已容許的伺服器如下所示：$2}}。',
+	'etherpadlite-empty-whitelist' => '「$1」並不位於所容許的Etherpad Lite伺服器白名單。白名單沒有已容許伺服器',
+	'etherpadlite-pad-used-more-than-once' => '便箋「$1」己曾用於此頁，你只可於同一頁中加入不同的便箋。',
 );
