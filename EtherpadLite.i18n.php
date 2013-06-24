@@ -69,7 +69,7 @@ $messages['be-tarask'] = array(
  */
 $messages['de'] = array(
 	'etherpadlite-desc' => 'Ergänzt das Tag &lt;eplite&gt; zum Einbetten eines oder mehrerer, entweder lokal oder extern auf EtherPad-Lite-Servern gehosteter, EtherPad-Lite-Editierflächen in eine Seite',
-	'etherpadlite-tracking-category' => 'Seiten mit einem eingebetten EtherPad',
+	'etherpadlite-tracking-category' => 'Seiten mit einem eingebetteten EtherPad',
 	'etherpadlite-invalid-pad-url' => '„$1“ ist keine gültige EtherPad-Lite-URL oder ein Editierfeldname.',
 	'etherpadlite-url-is-not-whitelisted' => '„$1“ befindet sich nicht in der Liste zulässiger EtherPad-Lite-Server. {{PLURAL:$3|$2 ist der einzige mögliche Server|Die folgenden Server sind möglich: $2}}.',
 	'etherpadlite-empty-whitelist' => '„$1“ befindet sich nicht in der Liste zulässiger EtherPad-Lite-Server. Es gibt keine zulässigen Server in der Liste.',
