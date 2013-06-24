@@ -112,6 +112,15 @@ $messages['fi'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Lehtiötä "$1" on jo käytetty aiemmin tällä sivulla. Sivulla voi olla useita lehtiöitä, mutta vain, jos ne ovat eri lehtiöitä.',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'etherpadlite-tracking-category' => 'Síður við einum innsettum Etherpad',
+	'etherpadlite-invalid-pad-url' => '"$1" er ikki ein loyvdur Etherpad Lite URL\'ur ella pad navn.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" er ikki á hvítalista yvir loyvdir Etherpad Lite ambætarar. {{PLURAL:$3|$2 er tann einasti loyvdi ambætarin|Teir loyvdur ambætararnir eru hesir: $2}}.',
+);
+
 /** French (français)
  * @author Gomoko
  */
