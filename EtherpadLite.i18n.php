@@ -28,11 +28,14 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'etherpadlite-desc' => '{{desc|name=Etherpad Lite|url=http://www.mediawiki.org/wiki/Extension:EtherpadLite}}',
 	'etherpadlite-tracking-category' => 'The name of a category for all pages which use the &lt;eplite&gt; parser extension tag. The category is automatically added unless the feature is disabled.',
-	'etherpadlite-invalid-pad-url' => "Error if the url did not meet validation (for example, if it didn't start with an allowed protocol). $1 is the invalid url",
+	'etherpadlite-invalid-pad-url' => "Error if the url did not meet validation (for example, if it didn't start with an allowed protocol).
+
+Parameters:
+* $1 - the invalid URL",
 	'etherpadlite-url-is-not-whitelisted' => "Error if URL isn't in list of allowed URLs. Parameters:
-* $1 is name of url specified by user
-* $2 is a comma separated list of allowed URLs
-* $3 is the number of URLs in the allowed list",
+* $1 - name of URL specified by user
+* $2 - a comma separated list of allowed URLs
+* $3 - the number of URLs in the allowed list",
 	'etherpadlite-empty-whitelist' => 'Parameters:
 * $1 is a URL not in the whitelist for Etherpad Lite servers.',
 	'etherpadlite-pad-used-more-than-once' => 'Error if users try to show multiple frames of the very same pad. Each pad must be unique on a wiki page. Parameters:
