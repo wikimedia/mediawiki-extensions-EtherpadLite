@@ -38,8 +38,10 @@ Parameters:
 * $3 - the number of URLs in the allowed list",
 	'etherpadlite-empty-whitelist' => 'Parameters:
 * $1 is a URL not in the whitelist for Etherpad Lite servers.',
-	'etherpadlite-pad-used-more-than-once' => 'Error if users try to show multiple frames of the very same pad. Each pad must be unique on a wiki page. Parameters:
-* $1 is a full pad URL (server/padid).',
+	'etherpadlite-pad-used-more-than-once' => 'Error if users try to show multiple frames of the very same pad. Each pad must be unique on a wiki page.
+
+Parameters:
+* $1 - a full pad URL (server/padid)',
 );
 
 /** Asturian (asturianu)
