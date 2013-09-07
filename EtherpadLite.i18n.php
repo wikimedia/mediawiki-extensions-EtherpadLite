@@ -300,6 +300,18 @@ $messages['nl-informal'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'De pad "$1" wordt al gebruikt op deze pagina. Je kunt meerdere pads op een pagina toevoegen, maar elke pad slechts één keer.',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'etherpadlite-desc' => "Apond la balisa de l'analisador &lt;eplite&gt; per incorporar un o mantun blòt d'Etherpad Lite (que son albergats sus de servidors Etherpad Lite locals o extèrnes) dins las paginas",
+	'etherpadlite-tracking-category' => 'Paginas amb un Etherpad inclús',
+	'etherpadlite-invalid-pad-url' => '"$1" es pas una URL o un nom de blòt Etherpad Lite valid.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" fa pas partida de la lista dels servidors Etherpad Lite autorizats. {{PLURAL:$3|$2 es lo sol servidor autorizat|Los servidors autorizats son los seguents: $2}}.',
+	'etherpadlite-empty-whitelist' => '"$1" es pas dins la lista dels servidors d\'aplicacion Lite autorizats. I a pas cap de servidor dins la lista autorizada.',
+	'etherpadlite-pad-used-more-than-once' => 'Lo blòt "$1" es ja estat utilizat sus aquesta pagina, podètz aver mantun blòt sus una pagina, mas solament se son de tipes diferents.',
+);
+
 /** Polish (polski)
  * @author BeginaFelicysym
  */
