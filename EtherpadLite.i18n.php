@@ -27,7 +27,7 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'etherpadlite-desc' => '{{desc|name=Etherpad Lite|url=http://www.mediawiki.org/wiki/Extension:EtherpadLite}}',
-	'etherpadlite-tracking-category' => 'The name of a category for all pages which use the &lt;eplite&gt; parser extension tag. The category is automatically added unless the feature is disabled.',
+	'etherpadlite-tracking-category' => 'The name of a category for all pages which use the <code><nowiki><eplite></nowiki></code> parser extension tag. The category is automatically added unless the feature is disabled.',
 	'etherpadlite-invalid-pad-url' => "Error if the URL did not meet validation (for example, if it didn't start with an allowed protocol).
 
 Parameters:
