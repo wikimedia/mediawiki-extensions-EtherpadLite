@@ -105,6 +105,15 @@ $messages['es'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'El bloque "$1" ya ha sido utilizado antes en esta página; puede tener muchos bloques en una página, pero sólo si son bloques diferentes.',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'etherpadlite-tracking-category' => 'صفحات تعبیه شده با یک اِترپد',
+	'etherpadlite-invalid-pad-url' => '"$1" یک یوآرال سبک اِترپد یا نام پد معتبر نیست.',
+	'etherpadlite-pad-used-more-than-once' => 'پد "$1" در حال حاضر در این صفحه پیش از این استفاده شده‌است؛ شما می‌توانید پدهای بیشتری در یک صفحه داشته باشید، اما اگر آنها فقط پدهای گوناگونی باشند.',
+);
+
 /** Finnish (suomi)
  * @author VezonThunder
  */
