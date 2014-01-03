@@ -63,7 +63,7 @@ $messages['be-tarask'] = array(
 	'etherpadlite-desc' => 'Дадае падтрымку парсэрам тэгу &lt;eplite&gt;, з дапамогай якога можна дадаваць на старонку адзін ці некалькі сшыткаў Etherpad Lite, якія разьмяшчаюцца на лякальным або вонкавым сэрвэры (сэрвэрах) Etherpad Lite.',
 	'etherpadlite-tracking-category' => 'Старонкі з уключаным Etherpad',
 	'etherpadlite-invalid-pad-url' => '«$1» не зьяўляецца слушным URL або назовам сшытку Etherpad Lite.',
-	'etherpadlite-url-is-not-whitelisted' => '«$1» не пазначаны ў сьпісе дазволеных сэрвэраў Etherpad Lite. {{PLURAL:$3|Дазволеным сэрвэрам зьяўляецца толькі $2|Дазволеныя сэрвэры: $2}}.',
+	'etherpadlite-url-is-not-whitelisted' => '«$1» не пазначаны ў сьпісе дазволеных сэрвэраў Etherpad Lite. {{PLURAL:$3|1=Дазволеным сэрвэрам зьяўляецца толькі $2|Дазволеныя сэрвэры: $2}}.', # Fuzzy
 	'etherpadlite-empty-whitelist' => '«$1» не пазначаны ў белым сьпісе дазволеных сэрвэраў Etherpad Lite. У белым сьпісе няма ніводнага сэрвэра.',
 	'etherpadlite-pad-used-more-than-once' => 'Сшытак «$1» ужо быў выкарыстаны на гэтай старонцы; вы можаце мець шмат сшыткаў на старонцы, але гэта мусяць быць розныя сшыткі.',
 );
@@ -378,7 +378,7 @@ $messages['ru'] = array(
 	'etherpadlite-desc' => 'Добавляет метку синтаксического анализа &lt;eplite&gt; для встраивания в страницы одного или нескольких блокнотов Etherpad Lite (расположенных на локальном или внешнем сервере Etherpad Lite)',
 	'etherpadlite-tracking-category' => 'Страницы с встроенным Etherpad',
 	'etherpadlite-invalid-pad-url' => '"$1" не является действительным именем блокнота или адресом Etherpad Lite.',
-	'etherpadlite-url-is-not-whitelisted' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. {{PLURAL:$3|Только $2 является разрешенным сервером|Разрешены следующие сервера: $2}}.',
+	'etherpadlite-url-is-not-whitelisted' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. {{PLURAL:$3|1=Только $2 является разрешенным сервером|Разрешены следующие сервера: $2}}.', # Fuzzy
 	'etherpadlite-empty-whitelist' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. В белом списке нет ни одного сервера.',
 	'etherpadlite-pad-used-more-than-once' => 'Блокнот "$1" был уже использован на этой странице; можно использовать несколько блокнотов на одной странице, но при этом они не должны быть одинаковыми.',
 );
@@ -408,13 +408,14 @@ $messages['tl'] = array(
 );
 
 /** Ukrainian (українська)
+ * @author Andriykopanytsia
  * @author Base
  */
 $messages['uk'] = array(
 	'etherpadlite-desc' => 'Додає підтримку парсером теґу &lt;eplite&gt; для вбудування в сторінки одного чи декількох документів Etherpad Lite (розташованих локально чи зовні на сервері/ах Etherpad Lite)',
 	'etherpadlite-tracking-category' => 'Сторінки з вбудованим Etherpad',
 	'etherpadlite-invalid-pad-url' => '«$1» не є дійсною назвою документу або адресою Etherpad Lite',
-	'etherpadlite-url-is-not-whitelisted' => '«$1» не входить до білого списку дозволених серверів Etherpad Lite. {{PLURAL:$3|Тільки сервер $2 є дозволеним|Доступними є наступні сервери: $2}}.',
+	'etherpadlite-url-is-not-whitelisted' => '«$1» не входить до білого списку дозволених серверів Etherpad Lite. {{PLURAL:$3|1=Тільки сервер $2 є дозволеним|Доступними є наступні сервери: $2}}.',
 	'etherpadlite-empty-whitelist' => '	«$1» не входить до білого списку дозволених серверів Etherpad Lite. У білому списку дозволених сереверів немає жодного серверу.',
 	'etherpadlite-pad-used-more-than-once' => 'Документ «$1» вже використано на цій сторінці; можна використовувати декілька документів на сторінці, але лише якщо вони різні.',
 );
