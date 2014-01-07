@@ -375,12 +375,13 @@ $messages['roa-tara'] = array(
 /** Russian (русский)
  * @author Eleferen
  * @author Express2000
+ * @author Kaganer
  */
 $messages['ru'] = array(
 	'etherpadlite-desc' => 'Добавляет метку синтаксического анализа &lt;eplite&gt; для встраивания в страницы одного или нескольких блокнотов Etherpad Lite (расположенных на локальном или внешнем сервере Etherpad Lite)',
 	'etherpadlite-tracking-category' => 'Страницы с встроенным Etherpad',
 	'etherpadlite-invalid-pad-url' => '"$1" не является действительным именем блокнота или адресом Etherpad Lite.',
-	'etherpadlite-url-is-not-whitelisted' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. {{PLURAL:$3|1=Только $2 является разрешенным сервером|Разрешены следующие сервера: $2}}.', # Fuzzy
+	'etherpadlite-url-is-not-whitelisted' => '«$1» не входит в белый список разрешённых серверов Etherpad Lite. {{PLURAL:$3|1=Разрешён только сервер «$2»|Разрешены следующие сервера: $2}}.',
 	'etherpadlite-empty-whitelist' => '"$1" не входит в белый список разрешенных серверов Etherpad Lite. В белом списке нет ни одного сервера.',
 	'etherpadlite-pad-used-more-than-once' => 'Блокнот "$1" был уже использован на этой странице; можно использовать несколько блокнотов на одной странице, но при этом они не должны быть одинаковыми.',
 );
