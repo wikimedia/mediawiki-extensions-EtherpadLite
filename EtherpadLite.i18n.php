@@ -109,6 +109,7 @@ $messages['es'] = array(
  * @author Armin1392
  */
 $messages['fa'] = array(
+	'etherpadlite-desc' => 'Adds &lt;eplite&gt; برچسب تجزیه برای قرار دادن یک یا چند پدهای اِترپد لایت (که در سرورهای اِترپد لایت داخلی یا خارجی گروه هستند) در صفحات',
 	'etherpadlite-tracking-category' => 'صفحات تعبیه شده با یک اِترپد',
 	'etherpadlite-invalid-pad-url' => '"$1" یک یوآرال سبک اِترپد یا نام پد معتبر نیست.',
 	'etherpadlite-url-is-not-whitelisted' => '"$1" در فهرست سفید مجاز سرورهای سبک اِترپد نیست. {{PLURAL:$3|$2 تنها سرور مجاز است|سرورهای مجاز به شرح زسر است: $2}}.',
