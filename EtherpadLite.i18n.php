@@ -265,7 +265,7 @@ $messages['lb'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'etherpadlite-desc' => 'Ја додава парсерската ознака &lt;eplite&gt; за вметнување на една или повеќе тетратки Etherpad Lite (кои се вдомени на локални или надворешни опслужувачи на Etherpad Lite) во страниците',
+	'etherpadlite-desc' => 'Ја додава расчленувачката ознака &lt;eplite&gt; за вметнување на една или повеќе тетратки Etherpad Lite (кои се вдомени на локални или надворешни опслужувачи на Etherpad Lite) во страниците',
 	'etherpadlite-tracking-category' => 'Страници со вметнат EtherPad',
 	'etherpadlite-invalid-pad-url' => '„$1“ не е важечко име на тетратка или URL на Etherpad Lite.',
 	'etherpadlite-url-is-not-whitelisted' => '„$1“ не е на белиот список на дозволени опслужувачи за Etherpad Lite. {{PLURAL:$3|Единствениот дозволен е $2|Дозволени се следниве: $2}}.',
