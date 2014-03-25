@@ -68,6 +68,13 @@ $messages['be-tarask'] = array(
 	'etherpadlite-pad-used-more-than-once' => 'Сшытак «$1» ужо быў выкарыстаны на гэтай старонцы; вы можаце мець шмат сшыткаў на старонцы, але гэта мусяць быць розныя сшыткі.',
 );
 
+/** Breton (brezhoneg)
+ * @author Fohanno
+ */
+$messages['br'] = array(
+	'etherpadlite-tracking-category' => 'Pajennoù gant Etherpad enklozet',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  * @author Tiin
