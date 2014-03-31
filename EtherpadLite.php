@@ -75,6 +75,9 @@ $wgExtensionMessagesFiles['EtherpadLite'] = $dir . 'EtherpadLite.i18n.php';
 $wgAutoloadClasses['EtherpadLite'] = $dir . 'EtherpadLite_body.php';
 $wgHooks['ParserFirstCallInit'][] = 'EtherpadLite::EtherpadLiteParserInit';
 
+# for Special:TrackingCategories
+$wgTrackingCategories[] = 'etherpadlite-tracking-category';
+
 # Define a default Etherpad Lite server Url and base path
 # unless a different server is defined with the src= attribute
 $wgEtherpadLiteDefaultPadUrl    = "http://beta.etherpad.org/p/";
