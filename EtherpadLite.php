@@ -21,7 +21,7 @@
  * Add the following lines in LocalSettings.php:
  *
  * require_once( "$IP/extensions/EtherpadLite/EtherpadLite.php" );
- * Etherpad Lite host server Url. 
+ * Etherpad Lite host server Url.
  * The shown one is a test server: it is not meant for production.
  * $wgEtherpadLiteDefaultPadUrl    = "http://beta.etherpad.org/p/";
  * $wgEtherpadLiteDefaultWidth     = "600px";
@@ -33,7 +33,7 @@
  * The shown one is a test server: it is not meant for production.
  * $wgEtherpadLiteDefaultPadUrl = "http://beta.etherpad.org/p/";
  *
- * For setting up your own Etherpad Lite server (based on node.js) see 
+ * For setting up your own Etherpad Lite server (based on node.js) see
  * Etherpad Lite homepage https://github.com/Pita/etherpad-lite
  *
  * This extension is based on:
@@ -64,12 +64,13 @@ $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'EtherpadLite',
 	'author' => array( 'Thomas Gries' ),
-	'version' => '1.13 20120319',
+	'version' => '1.14.0 20140331',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:EtherpadLite',
 	'descriptionmsg' => 'etherpadlite-desc',
 );
 
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['EtherpadLite'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['EtherpadLite'] = $dir . 'EtherpadLite.i18n.php';
 $wgAutoloadClasses['EtherpadLite'] = $dir . 'EtherpadLite_body.php';
 $wgHooks['ParserFirstCallInit'][] = 'EtherpadLite::EtherpadLiteParserInit';
@@ -91,7 +92,7 @@ $wgEtherpadLiteShowAuthorColors = true;
 # If there are items in the array, and the user supplied URL is not in the array,
 # the url will not be allowed
 #
-# Urls are case-sensitively tested against values in the array. 
+# Urls are case-sensitively tested against values in the array.
 # They must exactly match including any trailing "/" character.
 #
 # Warning: Allowing all urls (not setting a whitelist)
