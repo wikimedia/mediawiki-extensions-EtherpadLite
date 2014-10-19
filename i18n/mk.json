@@ -4,7 +4,7 @@
 			"Bjankuloski06"
 		]
 	},
-	"etherpadlite-desc": "Ја додава расчленувачката ознака &lt;eplite&gt; за вметнување на една или повеќе тетратки Etherpad Lite (кои се вдомени на локални или надворешни опслужувачи на Etherpad Lite) во страниците",
+	"etherpadlite-desc": "Ја додава расчленувачката ознака &lt;eplite&gt; за вметнување на една или повеќе тетратки Etherpad Lite (кои се вдомени на месни или надворешни опслужувачи на Etherpad Lite) во страниците",
 	"etherpadlite-tracking-category": "Страници со вметнат EtherPad",
 	"etherpadlite-tracking-category-desc": "Страницата го вметува Etherpad со ознаката <code>&lt;eplite&gt;</code>.",
 	"etherpadlite-invalid-pad-url": "„$1“ не е важечко име на тетратка или URL на Etherpad Lite.",
