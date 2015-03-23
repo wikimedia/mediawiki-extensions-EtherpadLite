@@ -3,10 +3,11 @@
 		"authors": [
 			"Beta16",
 			"Shirayuki",
-			"Siebrand"
+			"Siebrand",
+			"Umherirrender"
 		]
 	},
-	"etherpadlite-desc": "{{desc|name=Etherpad Lite|url=http://www.mediawiki.org/wiki/Extension:EtherpadLite}}",
+	"etherpadlite-desc": "{{desc|name=Etherpad Lite|url=https://www.mediawiki.org/wiki/Extension:EtherpadLite}}",
 	"etherpadlite-tracking-category": "The name of a category for all pages which use the <code><nowiki><eplite></nowiki></code> parser extension tag. The category is automatically added unless the feature is disabled.",
 	"etherpadlite-tracking-category-desc": "Description on [[Special:TrackingCategories]] for the {{msg-mw|etherpadlite-tracking-category}} tracking category.",
 	"etherpadlite-invalid-pad-url": "Error if the URL did not meet validation (for example, if it didn't start with an allowed protocol).\n\nParameters:\n* $1 - the invalid URL",
