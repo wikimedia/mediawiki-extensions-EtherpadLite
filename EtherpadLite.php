@@ -71,7 +71,6 @@ $wgExtensionCredits['parserhook'][] = array(
 
 $dir = dirname( __FILE__ ) . '/';
 $wgMessagesDirs['EtherpadLite'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['EtherpadLite'] = $dir . 'EtherpadLite.i18n.php';
 $wgAutoloadClasses['EtherpadLite'] = $dir . 'EtherpadLite_body.php';
 $wgHooks['ParserFirstCallInit'][] = 'EtherpadLite::EtherpadLiteParserInit';
 
