@@ -8,6 +8,9 @@
 	"descriptionmsg": "etherpadlite-desc",
 	"type": "parserhook",
 	"license-name": "MIT AND GPL-2.0-only",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
 	"TrackingCategories": [
 		"etherpadlite-tracking-category"
 	],
