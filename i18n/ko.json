@@ -6,7 +6,7 @@
 			"Ykhwong"
 		]
 	},
-	"etherpadlite-desc": "문서에 (로컬 또는 바깥 Etherpad Lite 서버에서 호스팅하는) 하나 또는 여러 Etherpad Lite 패드를 포함하는 &lt;eplite&gt; 파서 태그를 추가합니다",
+	"etherpadlite-desc": "문서에 (로컬 또는 외부 Etherpad Lite 서버에서 호스팅하는) 하나 또는 여러 Etherpad Lite 패드를 포함하는 &lt;eplite&gt; 파서 태그를 추가합니다",
 	"etherpadlite-tracking-category": "Etherpad가 들어간 문서",
 	"etherpadlite-tracking-category-desc": "문서에 <code>&lt;eplite&gt;</code> 태그가 있는 Etherpad를 포함합니다.",
 	"etherpadlite-invalid-pad-url": "\"$1\"은(는) 올바른 Etherpad Lite URL이나 패드 이름이 아닙니다.",
