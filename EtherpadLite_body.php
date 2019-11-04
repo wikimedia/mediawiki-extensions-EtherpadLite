@@ -130,7 +130,7 @@ class EtherpadLite {
 		# since disabling of cache has a significant performance impact
 		# on larger sites.
 
-		$parser->disableCache();
+		$parser->getOutput()->updateCacheExpiry( 0 );
 
 		# Etherpad Lite requires rawurlencoded userName, thus we must add it manually
 	
