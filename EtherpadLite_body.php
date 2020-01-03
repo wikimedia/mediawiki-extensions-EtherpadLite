@@ -34,8 +34,6 @@ class EtherpadLite {
 	}
 
 	static function EtherpadLiteRender( $input, array $args, Parser $parser, PPFrame $frame ) {
-
-		global $wgUser;
 		global $wgEtherpadLiteDefaultPadUrl, $wgEtherpadLiteDefaultWidth, $wgEtherpadLiteDefaultHeight,
 			$wgEtherpadLiteMonospacedFont, $wgEtherpadLiteShowControls, $wgEtherpadLiteShowLineNumbers,
 			$wgEtherpadLiteShowChat, $wgEtherpadLiteShowAuthorColors, $wgEtherpadLiteUrlWhitelist,
@@ -141,7 +139,7 @@ class EtherpadLite {
 				"useMonospaceFont" => $useMonospaceFont,
 				"noColors"         => $noColors,
 			)
-		) . "&userName=" . rawurlencode( $wgUser->getName() );
+		) . "&userName=" . rawurlencode( $parser->getUser()->getName() );
 
 		# @todo One could potentially stuff other css in the width argument
 		# since ; isn't checked for. Since overall css is checked for allowed
