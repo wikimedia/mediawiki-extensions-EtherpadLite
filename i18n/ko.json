@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"아라",
 			"Hym411",
-			"Ykhwong"
+			"Ykhwong",
+			"아라"
 		]
 	},
 	"etherpadlite-desc": "문서에 (로컬 또는 외부 Etherpad Lite 서버에서 호스팅하는) 하나 또는 여러 Etherpad Lite 패드를 포함하는 &lt;eplite&gt; 파서 태그를 추가합니다",

@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wizardist",
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Wizardist"
 		]
 	},
 	"etherpadlite-desc": "Дадае падтрымку парсэрам тэгу &lt;eplite&gt;, з дапамогай якога можна дадаваць на старонку адзін ці некалькі сшыткаў Etherpad Lite, якія разьмяшчаюцца на лякальным або вонкавым сэрвэры (сэрвэрах) Etherpad Lite.",

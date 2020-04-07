@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Cainamarques",
-			"!Silent"
+			"!Silent",
+			"Cainamarques"
 		]
 	},
 	"etherpadlite-desc": "Adiciona a etiqueta sintática &lt;eplite&gt; para incorporar um ou mais documentos Etherpad Lite (os quais são alocados em um ou mais servidores Etherpad Lite, locais ou externos) às páginas.",

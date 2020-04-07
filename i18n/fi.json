@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"VezonThunder",
 			"01miki10",
-			"Valtlait"
+			"Valtlait",
+			"VezonThunder"
 		]
 	},
 	"etherpadlite-desc": "Lisää &lt;eplite&gt;-parseritunnisteen, jolla voi upottaa yhden tai useamman Etherpad Lite -lehtiön (joita säilytetään paikallisilla tai ulkoisilla Etherpad Lite -palvelimilla) sivuun",
