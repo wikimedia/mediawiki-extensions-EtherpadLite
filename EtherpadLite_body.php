@@ -151,7 +151,11 @@ class EtherpadLite {
 			"src"   => Sanitizer::cleanUrl( $url ),
 		);
 
-		$sanitizedAttributes = Sanitizer::validateAttributes( $iframeAttributes, array ( "style", "class", "src" ) );
+		$sanitizedAttributes = Sanitizer::validateAttributes( $iframeAttributes, array (
+			"style" => true,
+			"class" => true,
+			"src" => true
+		) );
 
 		if ( !isset( $sanitizedAttributes['src'] ) ) {
 			// The Sanitizer decided that the src attribute was no good.
