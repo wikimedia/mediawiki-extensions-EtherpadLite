@@ -77,7 +77,7 @@ class EtherpadLite {
 	
 		switch ( true ) {
 	
-		# disallow because there is no whitelist or emtpy whitelist
+		# disallow because there is no whitelist or empty whitelist
 		case ( !isset( $wgEtherpadLiteUrlWhitelist ) 
 			|| !is_array( $wgEtherpadLiteUrlWhitelist )
 			|| ( count( $wgEtherpadLiteUrlWhitelist ) === 0 ) ):
