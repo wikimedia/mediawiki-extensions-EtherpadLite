@@ -131,6 +131,12 @@ class EtherpadLite {
 		$parser->getOutput()->updateCacheExpiry( 0 );
 
 		# Etherpad Lite requires rawurlencoded userName, thus we must add it manually
+		if ( method_exists( $parser, 'getUserIdentity' ) ) {
+			// MW 1.36+
+			$user = $parser->getUserIdentity();
+		} else {
+			$user = $parser->getUser();
+		}
 	
 		$url = wfAppendQuery( $url, array(
 				"showControls"     => $showControls,
@@ -139,7 +145,7 @@ class EtherpadLite {
 				"useMonospaceFont" => $useMonospaceFont,
 				"noColors"         => $noColors,
 			)
-		) . "&userName=" . rawurlencode( $parser->getUser()->getName() );
+		) . "&userName=" . rawurlencode( $user->getName() );
 
 		# @todo One could potentially stuff other css in the width argument
 		# since ; isn't checked for. Since overall css is checked for allowed
