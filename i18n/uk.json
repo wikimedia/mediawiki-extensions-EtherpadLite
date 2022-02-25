@@ -3,7 +3,8 @@
 		"authors": [
 			"Andriykopanytsia",
 			"Base",
-			"DDPAT"
+			"DDPAT",
+			"Ice bulldog"
 		]
 	},
 	"etherpadlite-desc": "Додає підтримку парсером тегу &lt;eplite&gt; для вбудування в сторінки одного чи декількох документів Etherpad Lite (розташованих локально чи зовні на сервері/ах Etherpad Lite)",
