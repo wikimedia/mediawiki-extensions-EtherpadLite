@@ -94,8 +94,8 @@ class EtherpadLite {
 		# otherwise disallow
 		case ( !in_array( $src, $wgEtherpadLiteUrlWhitelist ) ):
 		default:
-			$listOfAllowed = $parser->getFunctionLang()->listToText( $wgEtherpadLiteUrlWhitelist );
-			$numberAllowed = $parser->getFunctionLang()->formatNum( count( $wgEtherpadLiteUrlWhitelist ) );
+			$listOfAllowed = $parser->getTargetLanguage()->listToText( $wgEtherpadLiteUrlWhitelist );
+			$numberAllowed = $parser->getTargetLanguage()->formatNum( count( $wgEtherpadLiteUrlWhitelist ) );
 			return EtherpadLite::EtherpadLiteError( 'etherpadlite-url-is-not-whitelisted',
 				array( $src, $listOfAllowed, $numberAllowed )
 			);
