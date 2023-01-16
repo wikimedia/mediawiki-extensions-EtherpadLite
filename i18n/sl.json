@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"etherpadlite-desc": "Doda razčlenjevalno značko <eplite> za vdelavo enega ali več blokov Etherpad Lite (ki gostujejo v lokalnem ali zunanjem strežniku/strežnikih Etherpad Lite) na strani",
+	"etherpadlite-tracking-category": "Strani z vdelanim Etherpadom",
+	"etherpadlite-tracking-category-desc": "Na stran je z značko <code>&lt;eplite&gt;</code> vdelan Etherpad.",
+	"etherpadlite-invalid-pad-url": "»$1« ni veljaven URL ali veljavno ime bloka Etherpad Lite.",
+	"etherpadlite-url-is-not-whitelisted": "»$1« ni na belem seznamu dovoljenih strežnikov Etherpad Lite. {{PLURAL:$3|Edini dovoljeni strežnik je $3|Dovoljeni strežnik so naslednji: $2}}.",
+	"etherpadlite-empty-whitelist": "»$1« ni na belem seznamu dovoljenih strežnikov Etherpad Lite. Na belem seznamu ni nobenega dovoljenega strežnika.",
+	"etherpadlite-pad-used-more-than-once": "Blok »$1« je bil uporabljen že pred te stranjo; na strani imate lahko številne bloke, vendar le če so različni."
+}
