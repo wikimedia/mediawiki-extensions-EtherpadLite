@@ -2,11 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Jeluang Terluang"
+			"Jeluang Terluang",
+			"Hakimi97"
 		]
 	},
 	"etherpadlite-desc": "Membubuh teg penghurai &lt;eplite&gt; untuk membenamkan satu atau lebih pad Etherpad Lite (yang dihos di pelayan Etherpad Lite setempat mahupun luaran) pada halaman",
 	"etherpadlite-tracking-category": "Halaman yang dibenamin dengan Etherpad",
+	"etherpadlite-tracking-category-desc": "Halaman tersebut membenamkan Etherpad dengan tag <code>&lt;eplite&gt;</code> .",
 	"etherpadlite-invalid-pad-url": "\"$1\" bukan URL atau nama pad Etherpad Lite yang sah.",
 	"etherpadlite-url-is-not-whitelisted": "\"$1\" tiada dalam senarai putih pelayan Etherpad Lite yang dibenarkan. {{PLURAL:$3|$2 sahaja pelayan yang dibenarkan|Pelayan-pelayan yang dibenarkan ialah yang berikut: $2}}.",
 	"etherpadlite-empty-whitelist": "\"$1\" tiada dalam senarai putih pelayan Etherpad Lite yang dibenarkan. Tidak terdapat sebarang pelayan yang dibenarkan dalam senarai putih.",
