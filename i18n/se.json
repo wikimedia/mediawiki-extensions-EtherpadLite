@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
 			"Yupik"
 		]
 	},
-	"etherpadlite-tracking-category": "Siiddut, main lea vuojuhuvvon Etherpad"
+	"etherpadlite-tracking-category": "Siiddut, main lea vuojuhuvvon Etherpad",
+	"etherpadlite-tracking-category-desc": "Siiddus lea vuojuhuvvon Etherpad <code>&lt;eplite&gt;-gilkoriin."
 }
