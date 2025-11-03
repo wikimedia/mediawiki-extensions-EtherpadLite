@@ -15,6 +15,8 @@
  *
  */
 
+use MediaWiki\Html\Html;
+
 class EtherpadLite {
  	
 	/**
