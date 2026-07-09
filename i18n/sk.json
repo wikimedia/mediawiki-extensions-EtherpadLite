@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"etherpadlite-desc": "Pridáva parserovú značku &lt;eplite&gt; na vloženie jedného alebo viacerých Etherpad Lite padov (hostovaných na lokálnom alebo externom serveri/serveroch Etherpad Lite) na stránky",
+	"etherpadlite-tracking-category": "Stránky s vloženým Etherpadom",
+	"etherpadlite-tracking-category-desc": "Stránka vkladá Etherpad pomocou značky <code>&lt;eplite&gt;</code>.",
+	"etherpadlite-invalid-pad-url": "„$1“ nie je platná URL adresa Etherpad Lite ani názov padu.",
+	"etherpadlite-url-is-not-whitelisted": "„$1“ nie je v zozname povolených serverov Etherpad Lite. {{PLURAL:$3|$2 je jediný povolený server|Povolené servery sú tieto: $2}}.",
+	"etherpadlite-empty-whitelist": "„$1“ nie je v zozname povolených serverov Etherpad Lite. V zozname nie sú žiadne povolené servery.",
+	"etherpadlite-pad-used-more-than-once": "Pad „$1“ už bol na tejto stránke použitý; na jednej stránke môžete mať viacero padov, ale iba ak sú to rozdielne pady."
+}
