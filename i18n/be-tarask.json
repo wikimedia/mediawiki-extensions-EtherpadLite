@@ -7,7 +7,7 @@
 		]
 	},
 	"etherpadlite-desc": "Дадае парсэрны тэг &lt;eplite&gt;, з дапамогай якога можна дадаваць на старонку адзін ці многа сшыткаў Etherpad Lite, якія разьмяшчаюцца на лякальным або вонкавым сэрвэры (сэрвэрах) Etherpad Lite.",
-	"etherpadlite-tracking-category": "Старонкі з уключаным Etherpad",
+	"etherpadlite-tracking-category": "Старонкі з укладзеным Etherpad",
 	"etherpadlite-tracking-category-desc": "Старонкі ўкладаюць Etherpad з дапамогай тэгу <code>&lt;eplite&gt;</code>.",
 	"etherpadlite-invalid-pad-url": "«$1» не зьяўляецца слушным URL або назовам сшытку Etherpad Lite.",
 	"etherpadlite-url-is-not-whitelisted": "«$1» не пазначаны ў сьпісе дазволеных сэрвэраў Etherpad Lite. {{PLURAL:$3|1=Дазволеным сэрвэрам зьяўляецца толькі $2|Дазволеныя сэрвэры: $2}}.",
